@@ -1,0 +1,95 @@
+/*default css settings*/
+/* * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+} */
+
+/* ------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+.wrapper {
+  width: 330px;
+  padding: 2rem 1rem;
+  margin: 50px auto;
+  /* border-radius: 10px; */
+  text-align: center;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.44);
+  background: #ffff;
+}
+
+h1 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.2rem;
+}
+
+form input {
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #bababa;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  /* border-radius: 20px; */
+  /* background: #e4e4e4; */
+}
+input:focus {
+  border: 1px solid none;
+  border-bottom: 1px solid black;
+}
+
+button {
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  min-width: 80px;
+  cursor: pointer;
+  font-weight: 600;
+
+  color: white;
+  background: #636363;
+}
+button:hover {
+  background: #a1a1a1;
+}
+button:active {
+  background: #b2b2b2;
+}
+
+.terms {
+  margin-top: 10px;
+}

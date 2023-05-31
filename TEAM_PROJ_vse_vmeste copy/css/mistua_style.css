@@ -1,0 +1,18 @@
+.m_container {
+  /* width: 150px; */
+  text-align: center;
+  border: 1px solid #000;
+}
+.m_container_head {
+}
+.m_container_ekran {
+  background: #d1d1d1;
+}
+.m_container_mistsya {
+   display: grid;
+   grid-template-columns: repeat(15, 1fr);
+   grid-column-gap:20px;
+   grid-row-gap: 20px;
+   
+   background: #929292;
+}

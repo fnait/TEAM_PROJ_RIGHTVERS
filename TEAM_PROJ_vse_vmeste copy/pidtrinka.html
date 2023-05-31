@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/detalnishe_style.css" />
+        <script type="module" src="./js/script.js"></script>
+        <title>seansi</title>
+    </head>
+    <body>
+        <nav class="DET_navbar">
+            <div class="DET_navbar_logoplace">
+                <img
+                    src="./img/logo2.png"
+                    alt="logo"
+                    class="the_logo"
+                    height="40px"
+                />
+            </div>
+
+            <div class="DET_navbar__searchplace">
+                <div class="DET_search_mainplace">
+                    <button type="submit" class="DET_search-header__button">
+                        <div class="DET_picha">
+                            <img
+                                src="./img/search.png"
+                                alt="Тут має бути картинка"
+                                height="15px"
+                            />
+                        </div>
+                    </button>
+
+                    <input type="text" class="DET_search-header__input" />
+
+                    <button type="submit" class="DET_search-header__button2">
+                        <div class="picha2">
+                            <img
+                                src="./img/search.png"
+                                alt="Тут має бути картинка"
+                                height="15px"
+                            />
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="DET_navbar__buttons">
+                <a href="./index.html">Головна</a>
+                <a href="./seansi.html">Сеанси</a>
+                <a href="./pidtrinka.html" class="active">Підтричка</a>
+                <button id="autoris-btm">Авторизація</button>
+            </div>
+        </nav>
+
+        <div class="PIDTR_content">
+            <h2>Форма для отримання підтримки</h2>
+            <div class="PIDTR_container_outside">
+                <div class="PIDTR_container_inside">
+                    <!-- <hr> -->
+                    <form action="https://formsubmit.co/50f2d19c75f0661deb59b8521dcae027" method="POST">
+                        <input type="text" name="Name" placeholder="Ваше повне ім'я" required />
+                        <input type="email" name="Email" placeholder="Електронна скринька" required />
+            
+                        <input type="hidden" name="_next" value="./index.html">
+                        <input type="hidden" name="_captcha" value="false" required />
+            
+                        <select name="Content">
+                            <option class="opt_choice">Потрібна допомога</option>
+                            <option>Питання</option>
+                            <option>Cпівпраця</option>
+                            <option>Залишити відгук</option>
+                        </select>
+                        <textarea name="Message" placeholder="Ваше повідомлення до служби підтримки" required></textarea>
+            
+                        <div class="PIDTR_buttons_area">
+                            <a href="./index.html">
+                                <button type="button" class="PIDTR_btm_b_to_page">Повернутися до головної сторінки</button>
+                            </a>
+                            <button type="submit" class="PIDTR_btm_submit">Надіслати</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

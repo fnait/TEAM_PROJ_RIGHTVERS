@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script type="module" src="./js/script.js"></script>
+        <title>zaras u kino2</title>
+    </head>
+    <body>
+        <div class="all-page">
+            <nav class="navbar">
+                <div class="navbar_logoplace">
+                    <img
+                        src="./img/logo2.png"
+                        alt="logo"
+                        class="the_logo"
+                        height="40px"
+                    />
+                </div>
+
+                <div class="n_search_poisk">
+                    <div class="navbar__searchplace">
+                        <div class="search_mainplace">
+                            <button type="submit" class="search-header__button">
+                                <div class="picha">
+                                    <img src="./img/search.png" alt="Тут має бути картинка" height="15px"/>
+                                </div>
+                            </button>
+
+                            <input
+                                type="text"
+                                class="search-header__input"
+                                id="search"
+                                data-search
+                              />
+
+                            <button
+                                type="submit"
+                                class="search-header__button2"
+                            >
+                                <div class="picha2">
+                                    <img
+                                        src="./img/search.png"
+                                        alt="Тут має бути картинка"
+                                        height="15px"
+                                    />
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="user-cards"
+                        id="user-c"
+                        data-user-cards-container
+                    ></div>
+                    <template data-user-template>
+                        <!-- <a href="" data-link> -->
+                        <div class="card">
+                            <div class="header" data-header></div>
+                        </div>
+                        <!-- </a> -->
+                    </template>
+                </div>
+                <div class="navbar__buttons">
+                    <a href="./index.html" class="active">Головна</a>
+                    <a href="./seansi.html">Сеанси</a>
+                    <a href="./pidtrinka.html">Підтримка</a>
+                    <button id="autoris-btm">Авторизація</button>
+                    <!-- HERE -->
+                </div>
+            </nav>
+
+            <div class="content_main">
+                <!-- <div class="content_left_pan">
+          <h3>Сортувати за</h3>
+          <div class="fake_block">
+            <h3>Жанр</h3>
+            <hr />
+          </div>
+          <div class="fake_block_data">
+            <h3>Дата</h3>
+            <hr />
+          </div>
+        </div> -->
+
+                <div class="content_right_pan">
+                    <h3>Зараз у кіно</h3>
+                    <hr />
+
+                    <div class="content_right_pan_films">
+                        <a href="./detalnishe_chel_pauk.html">
+                            <div class="film_container">
+                                <div
+                                    id="chelpauk"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Людина Павук</h3>
+                                        <h4>США, 2023</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_rosmh.html">
+                            <div class="film_container">
+                                <div
+                                    id="rasamaha"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Россомаха</h3>
+                                        <h4>США, 2022</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_fantastichni_sviri.html">
+                            <div class="film_container">
+                                <div
+                                    id="fight_club"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Бійцівський Клуб</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_fantastichni_sviri.html">
+                            <div class="film_container">
+                                <div
+                                    id="udi_tvari"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Фантастичні Звірі</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_vednesday.html">
+                            <div class="film_container">
+                                <div
+                                    id="wednesday"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Венсдей Адамс</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_deadpool2.html">
+                            <div class="film_container">
+                                <div
+                                    id="deadpool"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Дедпул 2</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_avatar.html">
+                            <div class="film_container">
+                                <div
+                                    id="avatar"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Аватар 3</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="./detalnishe_tiny_predkiv.html">
+                            <div class="film_container">
+                                <div
+                                    id="tinipredkiv"
+                                    class="film_conatiner_top"
+                                ></div>
+                                <div class="film_container_bot">
+                                    <div class="film_container_bot_text">
+                                        <h3>Тіні Забутих Предків</h3>
+                                        <h4>Країна, рік</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-box" id="login-div">
+            <h2>Вхід</h2>
+            <button id="close-btn-log" class="btn-close">X</button><br />
+            <input
+                type="email"
+                id="login-email"
+                class="text-field"
+                name="login-email"
+                placeholder="Email"
+                required
+            /><br />
+            <input
+                type="password"
+                id="login-password"
+                class="text-field"
+                name="login-password"
+                placeholder="Password"
+                required
+            /><br />
+            <button id="login-btn" class="btn-style">Вхід</button><br />
+            <button id="reg-btn" class="an-btn">
+                не маєте аккаунту? Регістрація
+            </button>
+        </div>
+
+        <div class="center-box" id="register-div">
+            <h2>Регістрація</h2>
+            <button id="close-btn-reg" class="btn-close">X</button><br />
+            <input
+                type="email"
+                id="register-email"
+                class="text-field"
+                name="register-email"
+                placeholder="Email"
+                required
+            /><br />
+            <input
+                type="password"
+                id="register-password"
+                class="text-field"
+                name="register-password"
+                placeholder="Password"
+                required
+            /><br />
+            <button id="register-btn" class="btn-style">Регістрація</button
+            ><br />
+            <button id="log-btn" class="an-btn">вже маєте аккаунт? Вхід</button>
+        </div>
+
+        <div id="result-box">
+            <button id="close-btn-reslt" class="btn-close">X</button><br />
+            <h3 id="result"></h3>
+            <br />
+            <button id="log-out-btn" class="btn-style">Вийти з аккаунту</button>
+        </div>
+
+        <!-- <div class="search-wrapper">
+        <div class="user-cards" id="user-c" data-user-cards-container></div>
+        <template data-user-template>
+            <div class="card">
+                <div class="header" data-header></div>
+                <div class="body" data-body></div>
+                <div class="footer" data-footer></div>
+            </div>
+        </template>
+      </div> -->
+    </body>
+</html>

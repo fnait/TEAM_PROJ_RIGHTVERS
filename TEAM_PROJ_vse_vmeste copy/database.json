@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Россомаха",
+        "link":"./detalnishe_rosmh.html"
+    },
+    {
+        "id": 2,
+        "name": "Людина Павук",
+        "link":"./detalnishe_chel_pauk.html"
+    },
+    {
+        "id": 3,
+        "name": "Тіні забутих предків",
+        "link":"./detalnishe_tiny_predkiv.html"
+    },
+    {
+        "id": 4,
+        "name": "Вендсдей",
+        "link":"./more_pages/page_two.html"
+    },
+    {
+        "id": 5,
+        "name": "Бійцівський Клуб",
+        "link":"./more_pages/page_two.html"
+    },
+    {
+        "id": 6,
+        "name": "Фантастичні Звірі",
+        "link":"./more_pages/page_two.html"
+    },
+    {
+        "id": 7,
+        "name": "Дедпул 2",
+        "link":"./more_pages/page_two.html"
+    },
+    {
+        "id": 8,
+        "name": "Аватар 3",
+        "link":"./more_pages/page_two.html"
+    }
+]
